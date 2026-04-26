@@ -1,8 +1,17 @@
-# 🔐 LAB 6 — Analyse Statique d'une Application Android avec MobSF
+# LAB 6 : Analyse statique d'un APK avec MobSF dans la VM Mobexler
 
 ## 📋 Contexte du laboratoire
 
 Dans le cadre de ce laboratoire de sécurité mobile, j'ai réalisé une analyse statique complète d'une application Android (`pizza.apk`) en utilisant l'outil **MobSF (Mobile Security Framework)**. L'objectif principal est d'identifier les failles de sécurité présentes dans l'APK sans exécuter l'application, en s'appuyant uniquement sur l'inspection du code, du manifeste et de la configuration de signature.
+
+## Objectifs pédagogiques
+Comprendre le processus d'analyse statique d'un APK
+Identifier les composants sensibles d'une application Android
+Interpréter un rapport d'analyse de sécurité mobile
+Reconnaître les vulnérabilités courantes dans les applications Android
+Associer les vulnérabilités aux standards OWASP MASVS
+Formuler des recommandations de sécurité pertinentes
+Produire un mini-rapport d'audit professionnel
 
 ---
 
@@ -180,3 +189,6 @@ Le flag `allowBackup` autorise la copie complète des données de l'application 
 ---
 
 > **Note :** Cette analyse est réalisée dans un cadre académique. Toutes les conclusions sont basées sur une inspection statique uniquement (sans exécution de l'application). Une analyse dynamique complémentaire permettrait de confirmer l'exploitabilité réelle de ces vulnérabilités.
+
+## Realise par 
+NAFTAOUI Niama
